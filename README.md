@@ -1,25 +1,55 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner.svg" alt="Yassien Wasfy" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-light.svg" />
+    <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" alt="Yassien Wasfy — I train multimodal models and port them between frameworks" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/yassien-wasfy"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=0d1117" alt="LinkedIn" /></a>
-  <a href="https://kaggle.com/yassienwasfy"><img src="https://img.shields.io/badge/Kaggle-0d1117?style=for-the-badge&logo=kaggle&logoColor=58a6ff&labelColor=0d1117" alt="Kaggle" /></a>
-  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugging%20Face-0d1117?style=for-the-badge&logo=huggingface&logoColor=58a6ff&labelColor=0d1117" alt="Hugging Face" /></a>
-  <a href="mailto:yassienashraf2025@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff&labelColor=0d1117" alt="Email" /></a>
+  <a href="https://linkedin.com/in/yassien-wasfy"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" /></a>
+  <a href="https://kaggle.com/yassienwasfy"><img src="https://img.shields.io/badge/Kaggle-161b22?style=for-the-badge&logo=kaggle&logoColor=58a6ff" alt="Kaggle" /></a>
+  <!-- TODO: replace with your Hugging Face profile URL -->
+  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugging%20Face-161b22?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" /></a>
+  <a href="mailto:yassienashraf2025@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=bc8cff" alt="Email" /></a>
 </p>
 
 <br />
 
-### Open source
+## Open source
 
-**[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** &nbsp;·&nbsp; Added BLIP-2 support to Google's model library. Reported 10+ bugs that got fixed.
+**[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** — Google's pretrained model library.
+Added **BLIP-2** vision-language support, a **TinyCLIP** backbone, a **CNN14** audio backbone, and JAX auto-sharding. Reported 10+ bugs that were fixed.
 
-**[onnx/onnx](https://github.com/onnx/onnx)** &nbsp;·&nbsp; Proposed the GeGLU operator, the gated activation T5 v1.1, Gemma and PaLM use.
+**[onnx/onnx](https://github.com/onnx/onnx)** — the interchange format the ML ecosystem runs on.
+Proposed the **GeGLU** operator as a function-op at opset 28 — the gated activation behind T5 v1.1, Gemma, and PaLM.
+
+<p>
+  <a href="https://github.com/keras-team/keras-hub">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=keras-team&repo=keras-hub&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=keras-team&repo=keras-hub&bg_color=ffffff&title_color=0969da&text_color=59636e&icon_color=8250df&border_color=d8dee4" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=keras-team&repo=keras-hub&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" alt="keras-team/keras-hub" />
+    </picture>
+  </a>
+  <a href="https://github.com/onnx/onnx">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=onnx&repo=onnx&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=onnx&repo=onnx&bg_color=ffffff&title_color=0969da&text_color=59636e&icon_color=8250df&border_color=d8dee4" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=onnx&repo=onnx&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" alt="onnx/onnx" />
+    </picture>
+  </a>
+</p>
 
 <br />
 
-### Built
+## Fahlooy
+
+Founder. A startup building NLP tooling for Arabic and the Egyptian dialect — a language pair the big labs mostly skip. First target is an English → Egyptian Arabic translation model, currently in training.
+
+<br />
+
+## Projects
 
 <table>
 <tr>
@@ -27,38 +57,24 @@
 
 **Text2Img**
 
-Scraped 1.3M images and recaptioned them with LLaVA, then trained a U-Net from scratch for a week on a TPU v5e-8 pod. Inference runs in 30 seconds on a cheap CPU, so it needs no GPU server.
+Scraped 1.3M images and recaptioned them with LLaVA, then trained a U-Net from scratch for a week on a TPU v5e-8 pod. Inference runs in under 30 seconds on a mobile-budget CPU, so it needs no GPU server at all.
 
-`TensorFlow` `JAX` `TPU v5e-8` `W&B` `FastAPI`
+`TensorFlow` `JAX` `Keras 3` `TPU v5e-8` `W&B` `FastAPI`
+
+<!-- TODO: replace with your Hugging Face Space URL -->
+[Live demo →](https://huggingface.co/spaces)
 
 </td>
 <td width="50%" valign="top">
 
-**Face attributes**
+**Face Attributes**
 
-Multi-label classifier over 40 facial attributes on CelebA, trained across an 8-chip TPU v5e pod. 91% validation accuracy.
+Multi-label classifier over 40 facial attributes on CelebA, built on MobileNetV5 and trained distributed across an 8-chip TPU v5e pod. 91% validation accuracy.
 
 `MobileNetV5` `Keras 3` `JAX` `TPU v5e-8`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**TransU-Net**
-
-Transformer-UNet hybrid that finds and outlines organs in medical scans. 90% accuracy.
-
-`Keras 3` `TensorFlow`
-
-</td>
-<td width="50%" valign="top">
-
-**Fahlooy**
-
-My startup. NLP tooling for Arabic and the Egyptian dialect, starting with English to Egyptian Arabic translation.
-
-`NLP` `Arabic`
+<!-- TODO: replace with your Hugging Face Space URL -->
+[Live demo →](https://huggingface.co/spaces)
 
 </td>
 </tr>
@@ -66,19 +82,68 @@ My startup. NLP tooling for Arabic and the Egyptian dialect, starting with Engli
 
 <br />
 
-### Tools
+## Toolkit
+
+**Frameworks**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,docker,fastapi,git,linux&theme=dark" alt="Tools" />
+  <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=4584b6" alt="Python" />
+  <img src="https://img.shields.io/badge/JAX-161b22?style=flat-square&logo=google&logoColor=58a6ff" alt="JAX" />
+  <img src="https://img.shields.io/badge/Keras%203-161b22?style=flat-square&logo=keras&logoColor=FF4B4B" alt="Keras 3" />
+  <img src="https://img.shields.io/badge/TensorFlow-161b22?style=flat-square&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/PyTorch-161b22?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/scikit--learn-161b22?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
 </p>
 
-JAX and Keras 3 daily. Multi-TPU and multi-GPU training. ONNX and TensorRT for getting models small enough to deploy.
+**Data**
+
+<p>
+  <img src="https://img.shields.io/badge/NumPy-161b22?style=flat-square&logo=numpy&logoColor=4DABCF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-161b22?style=flat-square&logo=pandas&logoColor=F03FA0" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Polars-161b22?style=flat-square&logo=polars&logoColor=CD792C" alt="Polars" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-161b22?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Roboflow-161b22?style=flat-square&logo=roboflow&logoColor=A351FB" alt="Roboflow" />
+</p>
+
+**Training at scale**
+
+<p>
+  <img src="https://img.shields.io/badge/TPU%20v5e--8-161b22?style=flat-square&logo=googlecloud&logoColor=4285F4" alt="TPU v5e-8" />
+  <img src="https://img.shields.io/badge/Multi--GPU-161b22?style=flat-square&logo=nvidia&logoColor=76B900" alt="Multi-GPU" />
+  <img src="https://img.shields.io/badge/Weights%20%26%20Biases-161b22?style=flat-square&logo=weightsandbiases&logoColor=FFBE00" alt="Weights and Biases" />
+  <img src="https://img.shields.io/badge/MLflow-161b22?style=flat-square&logo=mlflow&logoColor=0194E2" alt="MLflow" />
+  <img src="https://img.shields.io/badge/LoRA%20%2F%20QLoRA-161b22?style=flat-square&logoColor=bc8cff" alt="LoRA and QLoRA" />
+</p>
+
+**Deploy & optimize**
+
+<p>
+  <img src="https://img.shields.io/badge/ONNX-161b22?style=flat-square&logo=onnx&logoColor=e6edf3" alt="ONNX" />
+  <img src="https://img.shields.io/badge/TensorRT-161b22?style=flat-square&logo=nvidia&logoColor=76B900" alt="TensorRT" />
+  <img src="https://img.shields.io/badge/Quantization-161b22?style=flat-square&logoColor=bc8cff" alt="Quantization" />
+  <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=009485" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Gradio-161b22?style=flat-square&logo=gradio&logoColor=F97316" alt="Gradio" />
+  <img src="https://img.shields.io/badge/Streamlit-161b22?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
+</p>
+
+Vision transformers, GANs, diffusion, CLIP, segmentation and object detection. Porting PyTorch weights into Keras.
 
 <br />
 
-<details>
-<summary><b>GitHub stats</b></summary>
-<br />
-<img src="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&icon_color=bc8cff&hide=issues" height="150" alt="Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&langs_count=6" height="150" alt="Top languages" />
-</details>
+## GitHub
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide=issues&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide=issues&bg_color=ffffff&title_color=0969da&text_color=59636e&icon_color=8250df&border_color=d8dee4" />
+    <img src="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide=issues&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" height="160" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&border_color=232935" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&langs_count=6&bg_color=ffffff&title_color=0969da&text_color=59636e&border_color=d8dee4" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&border_color=232935" height="160" alt="Top languages" />
+  </picture>
+</p>
