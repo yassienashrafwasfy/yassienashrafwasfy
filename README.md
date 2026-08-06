@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-light.svg" />
-    <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" alt="Yassien Wasfy. I train multimodal models and port them between frameworks." width="100%" />
+    <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" alt="Yassien Wasfy" width="100%" />
   </picture>
 </p>
 
@@ -18,10 +18,30 @@
 ## Open source
 
 **[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** is Google's pretrained model library.
-Added **BLIP-2** vision-language support, a **TinyCLIP** backbone, a **CNN14** audio backbone, and JAX auto-sharding. Reported 10+ bugs that were fixed.
+Added **BLIP-2** vision-language support and JAX auto-sharding. Reported 10+ bugs that were fixed.
+
+<img src="https://img.shields.io/badge/Keras%20Hub-161b22?style=flat-square&logo=keras&logoColor=FF4B4B" alt="Keras Hub" />
 
 **[onnx/onnx](https://github.com/onnx/onnx)** is the interchange format used across the ML ecosystem.
 Proposed the **GeGLU** operator as a function-op at opset 28. It is the gated activation behind T5 v1.1, Gemma, and PaLM.
+
+<img src="https://img.shields.io/badge/ONNX-161b22?style=flat-square&logo=onnx&logoColor=e6edf3" alt="ONNX" />
+
+<br />
+
+## Experience
+
+**Computer Vision Trainee** | NAID, New Capital, Egypt | Jul-Sep
+
+- Studied and applied deep learning concepts, including segmentation and object detection, across the ML lifecycle.
+- Built a GAN-based model to recover audio signals from noisy environments and improve reconstruction quality on degraded inputs.
+
+**Intern** | Cegedim, Cairo, Egypt | Jul 2026-Aug 2026
+
+- Built an NLP pipeline for data masking and PII detection to support EU GDPR requirements.
+- Tracked experiments and wrote tests while working across a complex multi-branch Git setup.
+- Worked with the MLOps team on deployment and reached the project's first milestone.
+- Shipped a fully deployed application as part of one of the few Cegedim teams to do so.
 
 <br />
 
