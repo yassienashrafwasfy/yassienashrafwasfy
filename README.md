@@ -1,145 +1,84 @@
-<div align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner.svg" alt="Yassien Wasfy" width="100%" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=40&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&height=70&lines=YASSIEN" />
+<p align="center">
+  <a href="https://linkedin.com/in/yassien-wasfy"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=0d1117" alt="LinkedIn" /></a>
+  <a href="https://kaggle.com/yassienwasfy"><img src="https://img.shields.io/badge/Kaggle-0d1117?style=for-the-badge&logo=kaggle&logoColor=58a6ff&labelColor=0d1117" alt="Kaggle" /></a>
+  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugging%20Face-0d1117?style=for-the-badge&logo=huggingface&logoColor=58a6ff&labelColor=0d1117" alt="Hugging Face" /></a>
+  <a href="mailto:yassienashraf2025@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff&labelColor=0d1117" alt="Email" /></a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=4000&pause=1000&color=C77DFF&center=true&vCenter=true&width=700&height=40&lines=COMPUTER+VISION+%7C+DEEP+LEARNING+ENGINEER" />
+<br />
 
-</div>
+### Open source
 
-```
-    ┌──────────────────────────────┐
-    │  ▶ ABOUT ME                  │
-    │    TECH STACK                │
-    │    GITHUB STATS              │
-    │    CONTRIBUTION GRAPH        │
-    └──────────────────────────────┘
-```
+**[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** &nbsp;·&nbsp; Added BLIP-2 support to Google's model library. Reported 10+ bugs that got fixed.
 
-## 👋 About Me
+**[onnx/onnx](https://github.com/onnx/onnx)** &nbsp;·&nbsp; Proposed the GeGLU operator, the gated activation T5 v1.1, Gemma and PaLM use.
 
-```
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║   I'm an Egyptian ML engineer based in Cairo,            ║
-║   Madinaty, looking for research roles, projects,        ║
-║   job roles, and freelancing. I value experience         ║
-║   over anything.                                       ▼ ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
+<br />
 
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║   I'm a Keras lover. I contribute models to Keras        ║
-║   Hub and report bugs. Every two weeks you'll find       ║
-║   me porting some model to Keras.                      ▼ ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
+### Built
 
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║   I work across all ML modalities. I'm an expert in      ║
-║   vision, but comfortable working with audio and         ║
-║   text too. You'll find me publishing from-scratch       ║
-║   work using Keras/JAX for papers that catch my          ║
-║   interest, or doing large-scale training on TPU       ▼ ║
-║   pods.                                                  ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
+<table>
+<tr>
+<td width="50%" valign="top">
 
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║   Aspiring to be a Google ML engineer. My idols,         ║
-║   who I look forward to being like one day:              ║
-║   François Chollet, Andrej Karpathy,                     ║
-║   Linus Torvalds.                                      ▼ ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-```
+**Text2Img**
 
-```
-╔══════════════════════════════════════════════════════════╗
-║  FOCUS AREAS                                      [ ✦ ]  ║
-╠══════════════════════════════════════════════════════════╣
-║                                                          ║
-║   ▶ GANs                                                 ║
-║   ▶ Diffusion Models                                     ║
-║   ▶ VAEs                                                 ║
-║   ▶ Vision Transformers                                  ║
-║   ▶ Contrastive Learning                                 ║
-║   ▶ Distributed training on multi-GPU/multi-TPU          ║
-║     setups                                               ║
-║   ▶ Model optimization                                   ║
-║       LoRA · QLoRA · DoRA · Quantization                 ║
-║       Pruning · ONNX · TensorRT                          ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-```
+Scraped 1.3M images and recaptioned them with LLaVA, then trained a U-Net from scratch for a week on a TPU v5e-8 pod. Inference runs in 30 seconds on a cheap CPU, so it needs no GPU server.
 
-## 🛠️ Tech Stack
+`TensorFlow` `JAX` `TPU v5e-8` `W&B` `FastAPI`
 
-<div align="center">
+</td>
+<td width="50%" valign="top">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=FFD700&center=true&vCenter=true&width=500&height=30&lines=-+DEEP+LEARNING+FRAMEWORKS+-" />
+**Face attributes**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![JAX](https://img.shields.io/badge/JAX-A100FF?style=flat-square&logo=google&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+Multi-label classifier over 40 facial attributes on CelebA, trained across an 8-chip TPU v5e pod. 91% validation accuracy.
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=FFD700&center=true&vCenter=true&width=500&height=30&lines=-+PRETRAINED+%26+MODEL+LIBRARIES+-" />
+`MobileNetV5` `Keras 3` `JAX` `TPU v5e-8`
 
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=FFD700&center=true&vCenter=true&width=500&height=30&lines=-+DATA+%26+EXPERIMENTATION+-" />
+**TransU-Net**
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
+Transformer-UNet hybrid that finds and outlines organs in medical scans. 90% accuracy.
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=FFD700&center=true&vCenter=true&width=500&height=30&lines=-+DATA+LABELING+-" />
+`Keras 3` `TensorFlow`
 
-![Roboflow](https://img.shields.io/badge/Roboflow-6706CE?style=flat-square&logo=roboflow&logoColor=white)
-![Label Studio](https://img.shields.io/badge/Label%20Studio-FF6B35?style=flat-square&logo=data&logoColor=white)
+</td>
+<td width="50%" valign="top">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=FFD700&center=true&vCenter=true&width=500&height=30&lines=-+MLOPS+%26+DEPLOYMENT+-" />
+**Fahlooy**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+My startup. NLP tooling for Arabic and the Egyptian dialect, starting with English to Egyptian Arabic translation.
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=FFD700&center=true&vCenter=true&width=500&height=30&lines=-+ENVIRONMENT+%26+TOOLS+-" />
+`NLP` `Arabic`
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+</td>
+</tr>
+</table>
 
-</div>
+<br />
 
-## 📈 GitHub Stats
+### Tools
 
-<div align="center">
+<p>
+  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,docker,fastapi,git,linux&theme=dark" alt="Tools" />
+</p>
 
-<img src="https://streak-stats.demolab.com?user=yassienashrafwasfy&theme=dark&hide_border=true&background=0D0221&stroke=FFD700&ring=FFD700&fire=FF6B35&currStreakLabel=FFD700&sideLabels=C77DFF&dates=8B949E" />
+JAX and Keras 3 daily. Multi-TPU and multi-GPU training. ONNX and TensorRT for getting models small enough to deploy.
 
-<br/><br/>
+<br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yassienashrafwasfy&theme=github_dark" />
-
-</div>
-
-## 🐍 Contribution Graph
-
-<div align="center">
-
-[![Yassien's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=yassienashrafwasfy&bg_color=0D0221&color=FFD700&line=C77DFF&point=FFFFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=600&height=45&lines=PRESS+START" />
-
-</div>
+<details>
+<summary><b>GitHub stats</b></summary>
+<br />
+<img src="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&icon_color=bc8cff&hide=issues" height="150" alt="Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&langs_count=6" height="150" alt="Top languages" />
+</details>
