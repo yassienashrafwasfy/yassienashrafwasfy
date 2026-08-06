@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-light.svg" />
-    <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" alt="Yassien Wasfy — I train multimodal models and port them between frameworks" width="100%" />
+    <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" alt="Yassien Wasfy. I train multimodal models and port them between frameworks." width="100%" />
   </picture>
 </p>
 
@@ -17,34 +17,21 @@
 
 ## Open source
 
-**[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** — Google's pretrained model library.
+**[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** is Google's pretrained model library.
 Added **BLIP-2** vision-language support, a **TinyCLIP** backbone, a **CNN14** audio backbone, and JAX auto-sharding. Reported 10+ bugs that were fixed.
 
-**[onnx/onnx](https://github.com/onnx/onnx)** — the interchange format the ML ecosystem runs on.
-Proposed the **GeGLU** operator as a function-op at opset 28 — the gated activation behind T5 v1.1, Gemma, and PaLM.
-
-<p>
-  <a href="https://github.com/keras-team/keras-hub">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=keras-team&repo=keras-hub&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=keras-team&repo=keras-hub&bg_color=ffffff&title_color=0969da&text_color=59636e&icon_color=8250df&border_color=d8dee4" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=keras-team&repo=keras-hub&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" alt="keras-team/keras-hub" />
-    </picture>
-  </a>
-  <a href="https://github.com/onnx/onnx">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=onnx&repo=onnx&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=onnx&repo=onnx&bg_color=ffffff&title_color=0969da&text_color=59636e&icon_color=8250df&border_color=d8dee4" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=onnx&repo=onnx&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" alt="onnx/onnx" />
-    </picture>
-  </a>
-</p>
+**[onnx/onnx](https://github.com/onnx/onnx)** is the interchange format used across the ML ecosystem.
+Proposed the **GeGLU** operator as a function-op at opset 28. It is the gated activation behind T5 v1.1, Gemma, and PaLM.
 
 <br />
 
 ## Fahlooy
 
-Founder. A startup building NLP tooling for Arabic and the Egyptian dialect — a language pair the big labs mostly skip. First target is an English → Egyptian Arabic translation model, currently in training.
+<p align="center">
+  <img src="assets/fahlooy.png" alt="Fahlooy logo" width="180" />
+</p>
+
+Founder of a startup building NLP tools for Arabic and Egyptian dialects. Its first project is an English-to-Egyptian Arabic translation model, now in training.
 
 <br />
 
