@@ -28,7 +28,7 @@ Proposed the **GeGLU** operator as a function-op at opset 28. It is the gated ac
 ## Fahlooy
 
 <p align="center">
-  <img src="assets/fahlooy.png" alt="Fahlooy logo" width="180" />
+  <img src="assets/fahlooy-banner.png" alt="Fahlooy logo" width="100%" />
 </p>
 
 Founder of a startup building NLP tools for Arabic and Egyptian dialects. Its first project is an English-to-Egyptian Arabic translation model, now in training.
@@ -111,23 +111,4 @@ Multi-label classifier over 40 facial attributes on CelebA, built on MobileNetV5
   <img src="https://img.shields.io/badge/Streamlit-161b22?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-</p>
-
-Vision transformers, GANs, diffusion, CLIP, segmentation and object detection. Porting PyTorch weights into Keras.
-
-<br />
-
-## GitHub
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide=issues&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide=issues&bg_color=ffffff&title_color=0969da&text_color=59636e&icon_color=8250df&border_color=d8dee4" />
-    <img src="https://github-readme-stats.vercel.app/api?username=yassienashrafwasfy&show_icons=true&hide=issues&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=bc8cff&border_color=232935" height="160" alt="GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&border_color=232935" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&langs_count=6&bg_color=ffffff&title_color=0969da&text_color=59636e&border_color=d8dee4" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassienashrafwasfy&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&border_color=232935" height="160" alt="Top languages" />
-  </picture>
 </p>
