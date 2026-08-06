@@ -54,14 +54,13 @@ Founder. A startup building NLP tooling for Arabic and the Egyptian dialect — 
 <tr>
 <td width="50%" valign="top">
 
-**Text2Img**
+**Text2Img Generation Model**
 
-Scraped 1.3M images and recaptioned them with LLaVA, then trained a U-Net from scratch for a week on a TPU v5e-8 pod. Inference runs in under 30 seconds on a mobile-budget CPU, so it needs no GPU server at all.
+Scraped 1.3M images and rewrote their captions with the LLaVA vision-language model. Trained a U-Net from scratch for a week on a TPU v5e-8 pod, with W&B logging metrics, model artifacts, and generated images throughout training. Inference runs on a mobile-budget CPU in under 30 seconds, removing the need for expensive deployment infrastructure.
 
-`TensorFlow` `JAX` `Keras 3` `TPU v5e-8` `W&B` `FastAPI`
+`TensorFlow` `Keras 3` `JAX` `W&B` `TPU v5e-8` `NumPy` `Vue` `FastAPI`
 
-<!-- TODO: replace with your Hugging Face Space URL -->
-[Live demo →](https://huggingface.co/spaces)
+[Live demo →](https://huggingface.co/spaces/masterofaudio2077/Stable_Diffusion_Text-to-img)
 
 </td>
 <td width="50%" valign="top">
@@ -72,8 +71,7 @@ Multi-label classifier over 40 facial attributes on CelebA, built on MobileNetV5
 
 `MobileNetV5` `Keras 3` `JAX` `TPU v5e-8`
 
-<!-- TODO: replace with your Hugging Face Space URL -->
-[Live demo →](https://huggingface.co/spaces)
+[Live demo →](https://huggingface.co/spaces/masterofaudio2077/celeb_a_identifier_1)
 
 </td>
 </tr>
