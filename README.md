@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/subaru-subaru-natsuki.gif" alt="Subaru animation" width="360" />
+  <img src="assets/subaru-subaru-natsuki.gif" alt="Subaru animation" width="320" />
 </p>
 
 <h1 align="center">Yassien Wasfy</h1>
