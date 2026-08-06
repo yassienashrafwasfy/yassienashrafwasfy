@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Yassien Wasfy, multimodal models, Cairo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#11161f"/>
+      <stop offset="100%" stop-color="#181d2a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="10" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="10" fill="none" stroke="#232935"/>
+
+  <g>
+    <rect x="858" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.68"><animate attributeName="opacity" values="0.68;0.96;0.68" dur="4.6s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="885" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.63"><animate attributeName="opacity" values="0.63;0.91;0.63" dur="3.1s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="912" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.30"></rect>
+    <rect x="939" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.26"></rect>
+    <rect x="966" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.07"></rect>
+    <rect x="993" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="1020" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="1047" y="46" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.06"></rect>
+    <rect x="858" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.45"></rect>
+    <rect x="885" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.63"></rect>
+    <rect x="912" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.81"></rect>
+    <rect x="939" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.41"></rect>
+    <rect x="966" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.36"></rect>
+    <rect x="993" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.42"></rect>
+    <rect x="1020" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.06"></rect>
+    <rect x="1047" y="73" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="858" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.33"></rect>
+    <rect x="885" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.45"></rect>
+    <rect x="912" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.68"></rect>
+    <rect x="939" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.47"></rect>
+    <rect x="966" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.47"></rect>
+    <rect x="993" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.30"></rect>
+    <rect x="1020" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.09"></rect>
+    <rect x="1047" y="100" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="858" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.19"></rect>
+    <rect x="885" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.30"></rect>
+    <rect x="912" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.48"></rect>
+    <rect x="939" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.88"><animate attributeName="opacity" values="0.88;1.00;0.88" dur="3.8s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="966" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.59"></rect>
+    <rect x="993" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.38"></rect>
+    <rect x="1020" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.33"></rect>
+    <rect x="1047" y="127" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.47"></rect>
+    <rect x="858" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.08"></rect>
+    <rect x="885" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.29"></rect>
+    <rect x="912" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.45"></rect>
+    <rect x="939" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.77"></rect>
+    <rect x="966" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.66"></rect>
+    <rect x="993" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.45"></rect>
+    <rect x="1020" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.42"></rect>
+    <rect x="1047" y="154" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.32"></rect>
+    <rect x="858" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="885" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.10"></rect>
+    <rect x="912" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.18"></rect>
+    <rect x="939" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.49"></rect>
+    <rect x="966" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.73"></rect>
+    <rect x="993" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.95"><animate attributeName="opacity" values="0.95;1.00;0.95" dur="4.7s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="1020" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.65"></rect>
+    <rect x="1047" y="181" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.55"></rect>
+    <rect x="858" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.07"></rect>
+    <rect x="885" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="912" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.46"></rect>
+    <rect x="939" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.19"></rect>
+    <rect x="966" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.50"></rect>
+    <rect x="993" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.68"></rect>
+    <rect x="1020" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.95"><animate attributeName="opacity" values="0.95;1.00;0.95" dur="4.0s" begin="2.0s" repeatCount="indefinite"/></rect>
+    <rect x="1047" y="208" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.41"></rect>
+    <rect x="858" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="885" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="912" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.05"></rect>
+    <rect x="939" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.07"></rect>
+    <rect x="966" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.32"></rect>
+    <rect x="993" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.33"></rect>
+    <rect x="1020" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.50"></rect>
+    <rect x="1047" y="235" width="22" height="22" rx="3" fill="url(#acc)" opacity="0.72"></rect>
+  </g>
+
+  <text x="72" y="118" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#e6edf3" letter-spacing="1.5">Yassien Wasfy</text>
+  <rect x="74" y="140" width="150" height="3" rx="1.5" fill="url(#rule)"/>
+  <text x="72" y="182" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" fill="#9198a1">I train multimodal models and port them between frameworks.</text>
+  <text x="72" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6e7681" letter-spacing="0.6">JAX  ·  Keras 3  ·  TPU v5e-8  ·  ONNX</text>
+  <text x="72" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#58a6ff" letter-spacing="0.6">keras-hub contributor</text>
+</svg>
