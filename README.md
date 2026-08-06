@@ -1,10 +1,9 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-light.svg" />
-    <img src="https://raw.githubusercontent.com/yassienashrafwasfy/yassienashrafwasfy/main/assets/banner-dark.svg" alt="Yassien Wasfy" width="100%" />
-  </picture>
+  <img src="assets/subaru-subaru-natsuki.gif" alt="Subaru animation" width="360" />
 </p>
+
+<h1 align="center">Yassien Wasfy</h1>
+<p align="center"><i>Building intelligent systems, one ambitious idea at a time.</i></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yassien-wasfy-315ab5349"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" /></a>
