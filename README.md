@@ -26,10 +26,6 @@ Proposed the **GeGLU** operator as a function-op at opset 28. It is the gated ac
 
 <img src="https://img.shields.io/badge/ONNX-161b22?style=flat-square&logo=onnx&logoColor=e6edf3" alt="ONNX" />
 
-<p align="center">
-  <img src="assets/keras-team-contributions.svg" alt="Contribution activity in keras-team" width="100%" />
-</p>
-
 <br />
 
 ## Experience
