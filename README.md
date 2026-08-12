@@ -44,15 +44,6 @@ Proposed the **GeGLU** operator as a function-op at opset 28. It is the gated ac
 
 <br />
 
-## Fahlooy
-
-<p align="center">
-  <img src="assets/fahlooy-banner.png" alt="Fahlooy logo" width="100%" />
-</p>
-
-Founder of a startup building NLP tools for Arabic and Egyptian dialects. Its first project is an English-to-Egyptian Arabic translation model, now in training.
-
-<br />
 
 ## Projects
 
