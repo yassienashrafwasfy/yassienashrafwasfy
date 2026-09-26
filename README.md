@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/subaru-subaru-natsuki.gif" alt="Subaru animation" width="320" />
+  <img src="assets/ascii-art.png" alt="Yassien Wasfy" width="600" />
 </p>
 
 <h1 align="center">Yassien Wasfy</h1>
@@ -17,62 +17,29 @@
 ## Open source
 
 **[keras-team/keras-hub](https://github.com/keras-team/keras-hub)** is Google's pretrained model library.
-Added **BLIP-2** vision-language support and JAX auto-sharding. Reported 10+ bugs that were fixed.
+
+- Added the **BLIP-2** vision-language model ([#2699](https://github.com/keras-team/keras-hub/pull/2699)), with weight-conversion scripts and numerical-parity tests against OPT-2.7B/6.7B and Flan-T5-XL/XXL checkpoints.
+- Added **KV caching** and a **Seq2SeqLM** task to T5 ([#2932](https://github.com/keras-team/keras-hub/pull/2932)), removing redundant recomputation during autoregressive decoding.
+- Filed 15 issues across Keras, KerasHub and keras-io; maintainers fixed 5 of my 6 bug reports.
 
 <img src="https://img.shields.io/badge/Keras%20Hub-161b22?style=flat-square&logo=keras&logoColor=FF4B4B" alt="Keras Hub" />
-
-**[onnx/onnx](https://github.com/onnx/onnx)** is the interchange format used across the ML ecosystem.
-Proposed the **GeGLU** operator as a function-op at opset 28. It is the gated activation behind T5 v1.1, Gemma, and PaLM.
-
-<img src="https://img.shields.io/badge/ONNX-161b22?style=flat-square&logo=onnx&logoColor=e6edf3" alt="ONNX" />
 
 <br />
 
 ## Experience
 
-**Computer Vision Trainee** | NAID, New Capital, Egypt | Jul-Sep
+**AI Engineer Intern** | Cegedim, Cairo, Egypt | Jul 2026 – Sep 2026
 
-- Studied and applied deep learning concepts, including segmentation and object detection, across the ML lifecycle.
-- Built a GAN-based model to recover audio signals from noisy environments and improve reconstruction quality on degraded inputs.
+- Built **Octo**, a PII detection and masking pipeline combining an XLM-R model with rule-based detection that reached **98% recall** on QA documents, and integrated it into Chameleon, the company's masking software, for GDPR compliance.
+- Built the shared masking engine all three team models run on, using PyMuPDF and ONNX Runtime to mask personal data in PDF and text files while keeping the original layout, with detectors for five countries' identifiers and a PP-OCRv6 fallback for scanned pages.
+- Cut text processing time by **48%** and halved reference-data memory by profiling with Scalene and removing repeated file reads and per-document setup.
+- Restructured the engine around rule tables and injected dependencies behind feature toggles, and added mutation testing that found gaps the passing test suite had hidden.
+- Shipped to production via GitLab CI with blue/green releases, and helped build an MLflow + FastAPI setup that scored every team's model on the same synthetic data.
 
-**Intern** | Cegedim, Cairo, Egypt | Jul 2026-Aug 2026
+**Computer Vision Trainee** | NAID, New Capital, Egypt | Jul 2025 – Sep 2025
 
-- Built an NLP pipeline for data masking and PII detection to support EU GDPR requirements.
-- Tracked experiments and wrote tests while working across a complex multi-branch Git setup.
-- Worked with the MLOps team on deployment and reached the project's first milestone.
-- Shipped a fully deployed application as part of one of the few Cegedim teams to do so.
-
-<br />
-
-
-## Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Text2Img Generation Model**
-
-Scraped 1.3M images and rewrote their captions with the LLaVA vision-language model. Trained a U-Net from scratch for a week on a TPU v5e-8 pod, with W&B logging metrics, model artifacts, and generated images throughout training. Inference runs on a mobile-budget CPU in under 30 seconds, removing the need for expensive deployment infrastructure.
-
-`TensorFlow` `Keras 3` `JAX` `W&B` `TPU v5e-8` `NumPy` `Vue` `FastAPI`
-
-[Live demo →](https://huggingface.co/spaces/masterofaudio2077/Stable_Diffusion_Text-to-img)
-
-</td>
-<td width="50%" valign="top">
-
-**Face Attributes**
-
-Multi-label classifier over 40 facial attributes on CelebA, built on MobileNetV5 and trained distributed across an 8-chip TPU v5e pod. 91% validation accuracy.
-
-`MobileNetV5` `Keras 3` `JAX` `TPU v5e-8`
-
-[Live demo →](https://huggingface.co/spaces/masterofaudio2077/celeb_a_identifier_1)
-
-</td>
-</tr>
-</table>
+- Trained segmentation and object-detection models across the full ML lifecycle.
+- Built a GAN-based model to denoise and reconstruct audio recorded in noisy environments.
 
 <br />
 
@@ -112,10 +79,11 @@ Multi-label classifier over 40 facial attributes on CelebA, built on MobileNetV5
 **Deploy & optimize**
 
 <p>
-  <img src="https://img.shields.io/badge/ONNX-161b22?style=flat-square&logo=onnx&logoColor=e6edf3" alt="ONNX" />
+  <img src="https://img.shields.io/badge/ONNX%20Runtime-161b22?style=flat-square&logo=onnx&logoColor=e6edf3" alt="ONNX Runtime" />
   <img src="https://img.shields.io/badge/TensorRT-161b22?style=flat-square&logo=nvidia&logoColor=76B900" alt="TensorRT" />
   <img src="https://img.shields.io/badge/Quantization-161b22?style=flat-square&logoColor=bc8cff" alt="Quantization" />
   <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitLab%20CI-161b22?style=flat-square&logo=gitlab&logoColor=FC6D26" alt="GitLab CI" />
   <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=009485" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Gradio-161b22?style=flat-square&logo=gradio&logoColor=F97316" alt="Gradio" />
   <img src="https://img.shields.io/badge/Streamlit-161b22?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
