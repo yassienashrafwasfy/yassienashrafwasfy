@@ -6,7 +6,6 @@
 **ML engineer from Cairo** working where models meet systems: implementing architectures, making them fast, and shipping them to production.
 
 - 📖 Reading *Designing Data-Intensive Applications*, *Fluent-python*, *Fundamentals of Software Engineering*
-- 📺 Enrolled in *FastAPI Packt Course*
 - 💬 Open to ML engineering and research roles, and freelance work
 
 <a href="https://www.linkedin.com/in/yassien-wasfy-315ab5349"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" /></a>
