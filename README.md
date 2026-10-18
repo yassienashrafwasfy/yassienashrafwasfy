@@ -21,7 +21,7 @@
 
 - Added the **BLIP-2** vision-language model ([#2699](https://github.com/keras-team/keras-hub/pull/2699)), with weight-conversion scripts and numerical-parity tests against OPT-2.7B/6.7B and Flan-T5-XL/XXL checkpoints.
 - Added **KV caching** and a **Seq2SeqLM** task to T5 ([#2932](https://github.com/keras-team/keras-hub/pull/2932)), removing redundant recomputation during autoregressive decoding.
-- Filed 15 issues across Keras, KerasHub and keras-io; maintainers fixed 5 of my 6 bug reports.
+- Filed 15 issues across Keras, KerasHub and keras-io; maintainers fixed 4 of my 6 bug reports.
 
 ## Experience
 
