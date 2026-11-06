@@ -27,7 +27,10 @@
 
 **AI Engineer Intern** | Cegedim, Cairo, Egypt | Jul 2026 – Sep 2026
 
-**Computer Vision Trainee** | NAID, New Capital, Egypt | Jul 2025 – Sep 2025
+**AI Trainee** | NAID, New Capital, Egypt | Jul 2025 – Sep 2025
+
+**Full-Stack Trainee** | NAID, New Capital, Egypt | Jul 2024 – Sep 2024
+
 ## Toolkit
 
 **Frameworks** &nbsp;
