@@ -23,6 +23,10 @@
 - Added **KV caching** and a **Seq2SeqLM** task to T5 ([#2932](https://github.com/keras-team/keras-hub/pull/2932)), removing redundant recomputation during autoregressive decoding.
 - Filed 15 issues across Keras, KerasHub and keras-io; maintainers fixed 4 of my 6 bug reports.
 
+**[vllm-project/vllm](https://github.com/vllm-project/vllm)** is a high-throughput LLM serving engine.
+
+- Fixed a startup failure on T4 GPUs: Qwen3.5 compiled its GPU kernels at launch and could fail to build ([#66288](https://github.com/vllm-project/vllm/issues/66288)). The merged fix ([#66289](https://github.com/vllm-project/vllm/pull/66289)) uses a Triton kernel on GPUs older than SM80, so nothing needs compiling.
+
 ## Experience
 
 **AI Engineer Intern** | Cegedim, Cairo, Egypt | Jul 2026 – Sep 2026
