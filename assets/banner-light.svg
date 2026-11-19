@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Yassien Wasfy. I fix and ship models, from Keras to vLLM.">
+  <style>
+    .dash { stroke-dasharray: 8 10; animation: march 1.2s linear infinite; }
+    .dot { animation: fly 2.4s linear infinite backwards; }
+    .dot.b { animation-delay: .8s; } .dot.c { animation-delay: 1.6s; }
+    @keyframes march { to { stroke-dashoffset: -18; } }
+    @keyframes fly { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(var(--d)); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .dash, .dot { animation: none; } }
+  </style>
+  <rect width="1200" height="340" rx="28" fill="#F4F1EA"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#14182B">
+    <text x="64" y="92" font-size="18" font-weight="700" letter-spacing="4" fill="#0F766E">YASSIEN WASFY</text>
+    <text x="64" y="168" font-size="58" font-weight="800">I fix and ship models</text>
+    <text x="64" y="238" font-size="58" font-weight="800">from <tspan fill="#C2410C">Keras</tspan> to <tspan fill="#C2410C">vLLM</tspan></text>
+    <text x="64" y="292" font-size="21" font-weight="500" opacity="0.7">Model ports · serving fixes · FastAPI services · Cairo</text>
+    <rect x="722" y="122" width="96" height="96" rx="22" fill="#FFB454"/><text x="770" y="177" font-size="21" font-weight="800" fill="#14182B" text-anchor="middle">Keras</text><rect x="892" y="122" width="96" height="96" rx="22" fill="#5EEAD4"/><text x="940" y="177" font-size="21" font-weight="800" fill="#14182B" text-anchor="middle">ONNX</text><rect x="1062" y="122" width="96" height="96" rx="22" fill="#B8A4FF"/><text x="1110" y="177" font-size="21" font-weight="800" fill="#14182B" text-anchor="middle">vLLM</text>
+    <path class="dash" d="M824 170 H886" fill="none" stroke="#14182B" stroke-width="4" stroke-linecap="round" opacity="0.5"/><path class="dash" d="M994 170 H1056" fill="none" stroke="#14182B" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <rect class="dot " x="820" y="165" width="9" height="9" rx="2" fill="#FFB454" style="--d:56px"/><rect class="dot b" x="820" y="165" width="9" height="9" rx="2" fill="#FFB454" style="--d:56px"/><rect class="dot c" x="820" y="165" width="9" height="9" rx="2" fill="#FFB454" style="--d:56px"/><rect class="dot " x="990" y="165" width="9" height="9" rx="2" fill="#FFB454" style="--d:56px"/><rect class="dot b" x="990" y="165" width="9" height="9" rx="2" fill="#FFB454" style="--d:56px"/><rect class="dot c" x="990" y="165" width="9" height="9" rx="2" fill="#FFB454" style="--d:56px"/>
+    <text x="770" y="258" font-size="14" font-weight="600" opacity="0.7" text-anchor="middle">port</text>
+    <text x="940" y="258" font-size="14" font-weight="600" opacity="0.7" text-anchor="middle">optimize</text>
+    <text x="1110" y="258" font-size="14" font-weight="600" opacity="0.7" text-anchor="middle">serve</text>
+  </g>
+</svg>

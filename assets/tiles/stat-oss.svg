@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" width="300" height="170" role="img" aria-label="5, , Keras · ONNX · vLLM · OpenVINO">
+  <rect width="300" height="170" rx="22" fill="#FF8A80"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#14182B">
+    <text x="24" y="78" font-size="56" font-weight="800">5</text>
+    
+    <text x="24" y="108" font-size="16" font-weight="600" opacity="0.8">pull requests merged</text>
+    <text x="24" y="148" font-size="12" font-weight="600" opacity="0.65">Keras · ONNX · vLLM · OpenVINO</text>
+  </g>
+  
+</svg>
